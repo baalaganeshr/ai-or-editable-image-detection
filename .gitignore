@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dataset (too large for git)
+dataset/
+
+# Trained model files (too large for git)
+model/*.keras
+model/*.h5
+
+# Plots
+plots/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Archives
+*.zip
+
+# Test outputs
+test_overlay.jpg
+test_heatmap.jpg
+
+# Virtual environments
+venv/
+.env/
